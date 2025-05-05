@@ -1,0 +1,38 @@
+.header-toolbar {
+  background: white;
+  color: #333;
+  padding: 0 16px;
+  display: flex;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-menu a {
+  color: #333;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 40px; // ajuste conforme o visual
+    width: auto;
+    object-fit: contain;
+  }
+}
+@media (max-width: 600px) {
+  .logo img {
+    height: 32px;
+  }
+}

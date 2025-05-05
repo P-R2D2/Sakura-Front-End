@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'SakuraStreaming';
+  title = 'Sakura Streaming';
+
+  addFilm() {
+    this.title = 'Sakura Streaming CHANGE';
+  }
 }
