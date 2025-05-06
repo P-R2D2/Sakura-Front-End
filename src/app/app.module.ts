@@ -7,7 +7,9 @@ import {MatToolbar} from "@angular/material/toolbar";
 import {MatAnchor, MatButton} from '@angular/material/button';
 import { FilmListComponent } from './film/film-list/film-list.component';
 import { FilmListItemComponent } from './film/film-list-item/film-list-item.component';
-import { FilmFormComponent } from './film/film/film-form/film-form.component';
+import { FilmFormComponent } from './film/film-form/film-form.component';
+import {MatCard, MatCardContent, MatCardHeader, MatCardImage, MatCardTitle} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,12 @@ import { FilmFormComponent } from './film/film/film-form/film-form.component';
     AppRoutingModule,
     MatToolbar,
     MatButton,
-    MatAnchor
+    MatAnchor,
+    MatCard,
+    MatCardHeader,
+    MatCardTitle,
+    MatCardContent,
+    MatCardImage
   ],
   providers: [],
   bootstrap: [AppComponent]

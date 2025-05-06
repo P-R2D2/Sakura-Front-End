@@ -1,0 +1,16 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.film-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.film-card {
+  width: 300px;
+}

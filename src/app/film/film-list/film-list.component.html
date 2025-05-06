@@ -1,1 +1,14 @@
-<p>film-list works!</p>
+<div class="container">
+  <button mat-raised-button color="primary" (click)="addFilm()">
+    Adicionar Filme
+  </button>
+
+  <div class="film-grid">
+    <mat-card *ngFor="let film of films" class="film-card">
+      <img mat-card-image [src]="film.imageUrl" alt="Capa do Filme">
+      <mat-card-content>
+        <h3>{{ film.name }}</h3>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
